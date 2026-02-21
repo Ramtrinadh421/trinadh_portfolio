@@ -6,7 +6,7 @@ const observer = new IntersectionObserver(entries => {
   });
 });
 
-document.querySelectorAll(".section").forEach(sec => {
-  sec.classList.add("hidden");
-  observer.observe(sec);
+document.querySelectorAll(".section").forEach(section => {
+  section.classList.add("hidden");
+  observer.observe(section);
 });
